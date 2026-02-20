@@ -69,4 +69,5 @@ void loop() {
     Serial.println(brightnessStatus);
     Serial.println("---------------------------------");
 
-
+    delay(1000);
+}
