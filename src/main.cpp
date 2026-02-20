@@ -15,4 +15,6 @@
  */
 
 // Pin connected to the LDR voltage divider output
+int LDR_PIN = A0; /**< @brief Analog pin used to read LDR voltage */
+
 
