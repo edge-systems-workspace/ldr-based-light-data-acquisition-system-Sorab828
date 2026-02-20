@@ -17,4 +17,7 @@
 // Pin connected to the LDR voltage divider output
 int LDR_PIN = A0; /**< @brief Analog pin used to read LDR voltage */
 
+// Last-read raw ADC value from the LDR circuit
+int ldrValue = 0; /**< @brief Stores the most recent analogRead() result */
+
 
