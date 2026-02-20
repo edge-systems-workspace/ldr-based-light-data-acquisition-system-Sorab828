@@ -65,3 +65,8 @@ void loop() {
         brightnessStatus = "Dark Environment";
     }
 
+    Serial.print("Status: ");
+    Serial.println(brightnessStatus);
+    Serial.println("---------------------------------");
+
+
